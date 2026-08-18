@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "prod_10001",
+      "type": "headphones",
+      "name": "Беспроводные наушники Pro",
+      "slug": "wireless-headphones-pro",
+      "description": "Беспроводные наушники с активным шумоподавлением.",
+      "price": 129.99,
+      "brand": "ExampleBrand",
+      "stock": 42,
+      "available": true,
+      "rating": 4.7,
+      "attributes": {
+        "color": "чёрный",
+        "connection": "Bluetooth 5.3",
+        "battery_life_hours": 30
+      }
+    },
+    {
+      "id": "prod_10002",
+      "type": "headphones",
+      "name": "Игровая гарнитура",
+      "slug": "gaming-headset",
+      "description": "Ободная гарнитура с микрофоном для стриминга и гейминга.",
+      "price": 79.99,
+      "brand": "GameExample",
+      "stock": 18,
+      "available": false,
+      "rating": 4.3,
+      "attributes": {
+        "color": "белый",
+        "connection": "USB-C",
+        "battery_life_hours": 20
+      }
+    },
+    {
+      "id": "prod_10003",
+      "type": "keyboard",
+      "name": "Механическая клавиатура",
+      "slug": "mechanical-keyboard",
+      "description": "Механическая клавиатура с подсветкой.",
+      "price": 89.5,
+      "brand": "ExampleTech",
+      "stock": 17,
+      "available": true,
+      "rating": 4.5,
+      "attributes": {
+        "layout": "ISO",
+        "switches": "Red",
+        "backlight": true
+      }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 3,
+    "total": 5
+  }
+}

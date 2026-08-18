@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": "prod_10004",
+      "type": "headphones",
+      "name": "Студийные наушники",
+      "slug": "studio-headphones",
+      "description": "Проводные наушники студийного качества.",
+      "price": 199.99,
+      "brand": "AudioExample",
+      "stock": 9,
+      "available": true,
+      "rating": 4.8,
+      "attributes": {
+        "color": "серый",
+        "connection": "3.5mm jack",
+        "battery_life_hours": 0
+      }
+    },
+    {
+      "id": "prod_10005",
+      "type": "keyboard",
+      "name": "Компактная клавиатура 60%",
+      "slug": "compact-keyboard-60",
+      "description": "Компактная клавиатура с тенкейловой раскладкой.",
+      "price": 59.99,
+      "brand": "ExampleTech",
+      "stock": 25,
+      "available": false,
+      "rating": 4.2,
+      "attributes": {
+        "layout": "60%",
+        "switches": "Brown",
+        "backlight": false
+      }
+    }
+  ],
+  "pagination": {
+    "page": 2,
+    "limit": 3,
+    "total": 5
+  }
+}
