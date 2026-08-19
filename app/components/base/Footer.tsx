@@ -1,3 +1,4 @@
+// TODO убрать импорты ассетов на уровень выше
 import SiLogo from "~/resources/sikurs-logo.png";
 
 export function Footer() {

@@ -8,6 +8,13 @@ import response_1 from "~/resources/response-1.json";
 import response_2 from "~/resources/response-2.json";
 import { CatalogResponseSchema } from "~/schemas/catalog";
 
+import type { Route } from "./+types/home";
+
+// TODO изменить описание
+export function meta({}: Route.MetaArgs) {
+  return [{ title: "Каталог товаров и услуг" }, { name: "description", content: "Тестовый сайт" }];
+}
+
 // TODO сделать реальные запросы с реальными ограничениями размера данных от клиента
 const responses = [response_1, response_2];
 const totalPages = responses.length;

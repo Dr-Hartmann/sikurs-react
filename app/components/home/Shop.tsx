@@ -1,5 +1,6 @@
 import { Button, Card } from "@heroui/react";
 
+// TODO убрать импорты ассетов на уровень выше
 import categories from "~/resources/categories.json";
 import quickSteps from "~/resources/quickSteps.json";
 import startOptions from "~/resources/startOptions.json";

@@ -1,13 +1,11 @@
-"use client";
-
-import {
-  YMap,
-  YMapComponentsProvider,
-  // YMapDefaultSchemeLayer,
-  // YMapDefaultFeaturesLayer,
-  // YMapMarker,
-  YMapDefaultMarker,
-} from "ymap3-components";
+// import {
+//   YMap,
+//   YMapComponentsProvider,
+//   // YMapDefaultSchemeLayer,
+//   // YMapDefaultFeaturesLayer,
+//   // YMapMarker,
+//   YMapDefaultMarker,
+// } from "ymap3-components";
 
 interface YandexMapsProps {
   position: { lat: number; lng: number };
@@ -16,18 +14,22 @@ interface YandexMapsProps {
 
 export function YandexMaps({ position, yandexMapsApiKey }: YandexMapsProps) {
   return (
-    <YMapComponentsProvider apiKey={yandexMapsApiKey}>
-      <YMap
-        location={{
-          center: position,
-          // zoom: 9,
-        }}
-        // mode="vector"
-      >
-        {/* <YMapDefaultSchemeLayer />
-        <YMapDefaultFeaturesLayer /> */}
-        <YMapDefaultMarker coordinates={position} draggable />
-      </YMap>
-    </YMapComponentsProvider>
+    <div>
+      {position.lat}-{position.lng}
+      {yandexMapsApiKey}
+      {/* <YMapComponentsProvider apiKey={yandexMapsApiKey}>
+        <YMap
+          location={{
+            center: position,
+            zoom: 9,
+          }}
+          mode="vector"
+        >
+          <YMapDefaultSchemeLayer />
+          <YMapDefaultFeaturesLayer />
+          <YMapDefaultMarker coordinates={position} draggable />
+        </YMap>
+      </YMapComponentsProvider> */}
+    </div>
   );
 }

@@ -1,5 +1,6 @@
 import { Button, Header, Link } from "@heroui/react";
 
+// TODO убрать импорты ассетов на уровень выше
 import SiLogo from "~/resources/sikurs-logo.png";
 
 // TODO бургер-меню при sm:

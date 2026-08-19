@@ -10,6 +10,8 @@ npm run build
 #
 docker build -t my-app .
 docker run -p 3000:3000 my-ap
+#
+python3 -m http.server 8080 -d ./build/client
 ```
 
 ## Ресурсы

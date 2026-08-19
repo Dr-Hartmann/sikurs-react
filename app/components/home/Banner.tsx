@@ -1,6 +1,7 @@
 import { Button } from "@heroui/react";
 import { Link } from "react-router";
 
+// TODO убрать импорты ассетов на уровень выше
 import SiBG from "~/resources/sikurs-bg.png";
 import SiCam from "~/resources/sikurs-cam.png";
 

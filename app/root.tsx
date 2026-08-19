@@ -1,7 +1,6 @@
 import "./app.css";
 
 import {
-  data,
   isRouteErrorResponse,
   Links,
   Meta,
@@ -26,13 +25,6 @@ import { HeaderLine } from "./components/base/Header";
 //     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
 //   },
 // ];
-
-export async function loader() {
-  return data({
-    yandexMapsApiKey: process.env.YANDEX_MAPS_API_KEY,
-    googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
-  });
-}
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
