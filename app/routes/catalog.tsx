@@ -8,7 +8,7 @@ import response_1 from "~/resources/response-1.json";
 import response_2 from "~/resources/response-2.json";
 import { CatalogResponseSchema } from "~/schemas/catalog";
 
-import type { Route } from "./+types/home";
+import type { Route } from "./+types/catalog";
 
 // TODO изменить описание
 export function meta({}: Route.MetaArgs) {

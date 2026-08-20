@@ -1,23 +1,20 @@
-// import {
-//   YMap,
-//   YMapComponentsProvider,
-//   // YMapDefaultSchemeLayer,
-//   // YMapDefaultFeaturesLayer,
-//   // YMapMarker,
-//   YMapDefaultMarker,
-// } from "ymap3-components";
+import {
+  YMap,
+  YMapComponentsProvider,
+  YMapDefaultFeaturesLayer,
+  YMapDefaultMarker,
+  YMapDefaultSchemeLayer,
+} from "ymap3-components";
 
 interface YandexMapsProps {
   position: { lat: number; lng: number };
   yandexMapsApiKey: string;
 }
 
-export function YandexMaps({ position, yandexMapsApiKey }: YandexMapsProps) {
+export default function YandexMaps({ position, yandexMapsApiKey }: YandexMapsProps) {
   return (
     <div>
-      {position.lat}-{position.lng}
-      {yandexMapsApiKey}
-      {/* <YMapComponentsProvider apiKey={yandexMapsApiKey}>
+      <YMapComponentsProvider apiKey={yandexMapsApiKey}>
         <YMap
           location={{
             center: position,
@@ -27,9 +24,10 @@ export function YandexMaps({ position, yandexMapsApiKey }: YandexMapsProps) {
         >
           <YMapDefaultSchemeLayer />
           <YMapDefaultFeaturesLayer />
+
           <YMapDefaultMarker coordinates={position} draggable />
         </YMap>
-      </YMapComponentsProvider> */}
+      </YMapComponentsProvider>
     </div>
   );
 }

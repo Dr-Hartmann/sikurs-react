@@ -22,6 +22,8 @@ https://sikurs-react.vercel.app/
 https://ainova.art/
 https://www.vseinstrumenti.ru/
 
+https://github.com/fede4ka1245/ymap3-components
+
 https://visgl.github.io/react-google-maps/docs/
 https://github.com/volga-volga/react-native-yamap/
 https://codesandbox.io/p/sandbox/ymap3-components-xk3d74
